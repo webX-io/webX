@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import founderImg from "../assets/images/regenerated_image_1778236363666.jpg";
 
 export default function About() {
   return (
@@ -27,7 +28,7 @@ export default function About() {
               {/* Photo Container */}
               <div className="absolute inset-4 rounded-[2rem] overflow-hidden group/img cursor-pointer shadow-[0_0_50px_rgba(139,92,246,0)] group-hover/img:shadow-[0_0_50px_rgba(139,92,246,0.3)] transition-shadow duration-700">
                 <motion.img
-                  src="/src/assets/images/regenerated_image_1778236363666.jpg"
+                  src={founderImg}
                   alt="Pushpraj Singh Rathore"
                   className="w-full h-full object-cover grayscale brightness-75 group-hover/img:grayscale-0 group-hover/img:brightness-100 group-hover/img:scale-110 transition-all duration-1000 ease-out"
                 />
